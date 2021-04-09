@@ -35,6 +35,10 @@ nav a {
   font-size: 1rem;
 }
 
+nav a:hover{
+  color:brown;
+}
+
 .carousel {
   margin: 1rem auto;
   max-width: 115rem;
@@ -141,7 +145,12 @@ nav a {
   justify-content: space-between;
   align-items: center;
   padding:2rem;
-  color:white;
+
   margin:2rem auto 0 auto;
   max-width: 115rem;
+}
+
+.footer__left{
+  color:white;
+  width: 50%;
 }
